@@ -40,9 +40,9 @@ else
 
 // ------------------------------------- 2 вариант
 
-int a = int.Parse(Console.ReadLine()!);
+int num = int.Parse(Console.ReadLine()!);
 
-switch (a)
+switch (num)
 {
     case 1: Console.WriteLine("Monday"); break;
     case 2: Console.WriteLine("Tuesday"); break;
